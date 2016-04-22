@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Datpicker</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+		<script src="jquery.js"></script>
+
+		<script>
+			
+			$(function() {
+
+				$('.day1').click(function(e) {
+					
+					$('#num').text('1');
+					$('#day').text('Lundi');
+
+				});
+							
+				$('.day2').click(function(e) {
+					
+					$('#num').text('2');
+					$('#day').text('Mardi');
+
+				});
+							
+				$('.day3').click(function(e) {
+					
+					$('#num').text('3');
+					$('#day').text('Mercredi');
+
+				});
+
+				$('.day4').click(function(e) {
+					
+					$('#num').text('4');
+					$('#day').text('Jeudi');
+
+				});
+
+				$('.day5').click(function(e) {
+					
+					$('#num').text('5');
+					$('#day').text('Vendredi');
+
+				});
+
+				$('.day6').click(function(e) {
+					
+					$('#num').text('6');
+					$('#day').text('Samedi');
+
+				});
+
+				$('.day7').click(function(e) {
+					
+					$('#num').text('7');
+					$('#day').text('Dimanche');
+
+				});
+
+				$('.day8').click(function(e) {
+					
+					$('#num').text('8');
+					$('#day').text('Lundi');
+
+				});
+
+			});
+
+		</script>
+
+		<div class="datepicker_body">
+			<div class="datepicker_head">
+				<p id="day">Lundi</p> <a id="num">1</a>
+			</div>
+			<div class="datepicker_down">
+				<button class="day1">1</button>
+				<button class="day2">2</button>
+				<button class="day3">3</button>
+				<button class="day4">4</button>
+				<button class="day5">5</button>
+				<button class="day6">6</button>
+				<button class="day7">7</button>
+				<button class="day8">8</button>
+			</div>
+		</div>
+
+		<style type="text/css">
+
+			button.btn-1{
+				border-color: transparent;
+				background-color: transparent;
+				cursor: pointer;
+				border-radius: 50px;
+			}
+
+			button.btn-2{
+				border-color: transparent;
+				background-color: transparent;
+				cursor: pointer;
+				border-radius: 50px;
+			}
+
+			button.btn-1:hover{
+				border-color: red;
+				background-color: blue;
+				cursor: pointer;
+				border-radius: 50px;
+			}
+
+			button.btn-2:hover{
+				border-color: red;
+				background-color: blue;
+				cursor: pointer;
+				border-radius: 50px;
+			}
+
+			button.day1{
+				border-radius: 50%;
+				background-color: transparent;
+				border-color: transparent;
+				cursor: pointer;
+			}
+
+			button.day2{
+				border-radius: 50%;
+				background-color: transparent;
+				border-color: transparent;
+				cursor: pointer;
+			}
+
+			button.day3{
+				border-radius: 50%;
+				background-color: transparent;
+				border-color: transparent;
+				cursor: pointer;
+			}
+
+			button.day4{
+				border-radius: 50%;
+				background-color: transparent;
+				border-color: transparent;
+				cursor: pointer;
+			}
+
+			button.day5{
+				border-radius: 50%;
+				background-color: transparent;
+				border-color: transparent;
+				cursor: pointer;
+			}
+
+			button.day6{
+				border-radius: 50%;
+				background-color: transparent;
+				border-color: transparent;
+				cursor: pointer;
+			}
+
+			button.day7{
+				border-radius: 50%;
+				background-color: transparent;
+				border-color: transparent;
+				cursor: pointer;
+			}
+
+			button.day8{
+				border-radius: 50%;
+				background-color: transparent;
+				border-color: transparent;
+				cursor: pointer;
+			}
+
+			button.day1:hover{
+				border-radius: 50%;
+				background-color: blue;
+				cursor: pointer;
+				border-color: green;
+			}
+
+			button.day2:hover{
+				border-radius: 50%;
+				background-color: blue;
+				cursor: pointer;
+				border-color: green;
+			}
+
+			button.day3:hover{
+				border-radius: 50%;
+				background-color: blue;
+				cursor: pointer;
+				border-color: green;
+			}
+
+			button.day4:hover{
+				border-radius: 50%;
+				background-color: blue;
+				cursor: pointer;
+				border-color: green;
+			}
+
+			button.day5:hover{
+				border-radius: 50%;
+				background-color: blue;
+				cursor: pointer;
+				border-color: green;
+			}
+
+			button.day6:hover{
+				border-radius: 50%;
+				background-color: blue;
+				cursor: pointer;
+				border-color: green;
+			}
+
+			button.day7:hover{
+				border-radius: 50%;
+				background-color: blue;
+				cursor: pointer;
+				border-color: green;
+			}
+
+			button.day8:hover{
+				border-radius: 50%;
+				background-color: blue;
+				cursor: pointer;
+				border-color: green;
+			}
+			
+			div.datepicker_down{
+				margin: 0px;
+				padding: 0px;
+				width: 150px;
+				height: 50px;
+				font-family: sans-serif;
+				background-color: chocolate;
+				border-radius: 5%;
+			}
+
+			div.datepicker_head{
+				text-align: center;
+				padding: 0px;
+				margin: 0px;
+				font-family: sans-serif;
+				width: 150px;
+				height: 60px;
+				background-color: aqua;
+				border-radius: 5%;
+			}
+			
+			p.date{
+				padding: 0px;
+				margin: 0px;
+				text-align: center;
+			}
+
+		</style>
+	</body>
+</html>
